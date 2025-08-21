@@ -3,8 +3,11 @@ O código, desenvolvido em Python, implementa uma estratégia de resolução em 
 
 **Fase Construtiva:** Utiliza a heurística NEH (Nawaz, Enscore e Ham) para gerar uma solução inicial de boa qualidade de forma rápida e eficiente. A função heuristica_neh ordena as tarefas pelo somatório de seus tempos de processamento e as insere iterativamente na melhor posição da sequência parcial.
 
+
 **Fase de Refinamento:** A solução inicial da NEH é aprimorada por duas meta-heurísticas distintas:
+
 **Busca Local com Interchange:** Uma busca local iterativa que explora a vizinhança trocando a posição de todos os pares de tarefas, sempre aplicando a melhor troca encontrada (estratégia Best Improvement) até atingir um ótimo local.
+
 **Simulated Annealing (SA):** Uma meta-heurística que também utiliza a vizinhança de Interchange, mas com a capacidade de aceitar movimentos de piora para escapar de ótimos locais e explorar o espaço de soluções de forma mais ampla.
 
 
