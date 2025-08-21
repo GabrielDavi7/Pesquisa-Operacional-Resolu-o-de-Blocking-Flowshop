@@ -23,4 +23,4 @@ A **conclusão** do estudo é que, embora os métodos implementados sejam funcio
 
 
 
-tempo de fluxo total (Total Flowtime). As instâncias de benchmark utilizadas para os testes foram as de Taillard, disponíveis: https://github.com/js-aguiar/permutation-flowshop/tree/master/benchmark%20instances/taillard%20instances
+tempo de fluxo total (Total Flowtime). As instâncias de benchmark utilizadas para os testes foram as de Taillard, disponíveis: https://github.com/js-aguiar/permutationflowshop/tree/master/benchmark%20instances/taillard%20instances
