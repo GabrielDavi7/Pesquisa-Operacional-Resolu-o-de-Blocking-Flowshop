@@ -1,3 +1,7 @@
+**Resumo do Projeto:** Resolução do Problema de Blocking Flowshop
+
+Este projeto aborda o Problema de Sequenciamento em Flowshop com Bloqueio (BFSP), um desafio de otimização combinatória NP-difícil. O objetivo principal é encontrar uma sequência de tarefas que minimize 
+
 O código, desenvolvido em Python, implementa uma estratégia de resolução em duas fases:
 
 
@@ -16,3 +20,7 @@ Os algoritmos foram testados e comparados com as melhores soluções conhecidas 
 
 
 A **conclusão** do estudo é que, embora os métodos implementados sejam funcionalmente corretos, sua abordagem single-start (refinando uma única solução inicial) é significativamente inferior a algoritmos mais complexos, como o GRASP Reativo, que é multi-start e explora milhares de soluções diferentes, alcançando resultados muito superiores. O trabalho evidencia o clássico trade-off entre tempo de execução e qualidade da solução em problemas de otimização
+
+
+
+tempo de fluxo total (Total Flowtime). As instâncias de benchmark utilizadas para os testes foram as de Taillard, disponíveis: https://github.com/js-aguiar/permutation-flowshop/tree/master/benchmark%20instances/taillard%20instances
