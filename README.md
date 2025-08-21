@@ -1,4 +1,3 @@
-Sobre o Código
 O código, desenvolvido em Python, implementa uma estratégia de resolução em duas fases:
 
 
